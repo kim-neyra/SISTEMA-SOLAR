@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-/*----------------------------------------------------------------------------------------*/
 body{
     height: 600px;
     background-color: aqua;
@@ -15,7 +14,7 @@ body{
     background-position-y: center;
     background-attachment: fixed;
 }
-/*---------------------------------------------------------------------------------------------------*/
+
 header{
     background-color: aqua;
     display: flex;
@@ -30,8 +29,6 @@ header{
 .logo img{
     height: 80px;
 }
-
-/*-----------------------------------------------------------------------------------------------------*/
 .etiqueta ul{
     list-style-type: none;
     margin: 0%;
@@ -67,7 +64,6 @@ header{
     background-color: grey;
     color: beige;
 }
-/*-------------------------------------------------------------------------------*/
 .container-alt{
     color: rgb(223, 122, 28);
     width: 100%;
@@ -107,7 +103,4 @@ footer{
     color:rgb(5, 4, 4); 
     text-align:justify; 
     clear: both;
-}
-footer svg{
-    width: 3%;
 }

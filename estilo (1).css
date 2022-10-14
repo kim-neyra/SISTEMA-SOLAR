@@ -1,0 +1,186 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+body{
+    background-color: cyan;
+    background-image: url(https://fondosmil.com/fondo/8518.jpg);
+    background-attachment: fixed; /*scroll -> texto se moverá contigo, Fixed-> imagen estática*/
+    background-size:100% ;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+header{
+    background-color: rgb(3, 26, 68);
+    text-align: center;
+    color: crimson;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+}
+
+
+
+.navbar {
+	background: rgb(3, 26, 68);
+	position: sticky;
+	top: 0;
+}
+
+.navbar a {
+	color: #fff;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: rgb(255, 0, 0);
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: #1D2F3D;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.active{
+    background-color: grey;
+    color: beige;
+}
+.planetas{
+    color: rgb(223, 122, 28);
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 15px;
+    border-top: 6px greenyellow;
+}
+.sub-title{
+        color:rgb(41, 194, 61);
+        text-decoration: underline;
+        text-decoration: initial;
+        letter-spacing: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-shadow: 2px 2px 1px red;
+}
+.planetas img{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.planetas p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.planetas li{
+    text-align:justify;
+    color:rgb(202, 125, 38)
+}
+footer{
+    background-color: rgb(3, 26, 68);
+    width:100%;
+    height: 20%; 
+    color:rgb(255, 255, 255); 
+    text-align:justify; 
+    clear: both;
+}
+.pie-pagina{
+    width: 100%;
+    background-color:gray
+
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pie-pagina .grupo-1 .box figure img{
+    margin-top: 30px;
+    width: 150px;
+    height: 140px;
+    
+}
+.pie-pagina .grupo-1 .box h2{
+    color:black;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+}
+.pie-pagina .grupo-1 .box p{
+    color: black;
+    margin-bottom: 10px;
+
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(250, 247, 247);
+    margin-right: 10px;
+    background-color:brown;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: black;
+}
+
+.pie-pagina .grupo-2{
+    background-color:gray;
+    padding: 15px 10px;
+    text-align: center;
+    color: black;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+
+    }
+}
